@@ -1,0 +1,204 @@
+* {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0px;
+  font-family: 'Ribeye Marrow', cursive;
+  width: 100%;
+  background-color: lavenderblush;
+  text-align: center;
+}
+body {
+  background-color: lavenderblush;
+}
+.navText {
+  font-family: 'Raleway' , sans-serif;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: pink;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  color: fuchsia;
+  font-size: 25px;
+  background-color: lavenderblush;
+}
+
+a:hover {
+  color: white;
+  background-color: fuchsia;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+
+  #fall-2019 {
+    background-color: pink;
+    width: 50%;
+    height: 500px;
+    border-style: solid;
+    border-width: 2px 0px 2px 2px;
+    border-color: fuchsia;
+  }
+
+  #spring-2020 {
+    background-color: pink;
+    width: 50%;
+    height: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: fuchsia;
+  }
+
+  .resume {
+    text-align: left;
+  }
+
+  h5 {
+    text-align: left;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+  }
+
+  h4 {
+    font-family: 'Oswald', sans-serif;
+    background-color: lavenderblush;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+
+  h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    color: fuchsia;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-decoration: bold;
+  }
+
+  p3 {
+    font-family: 'Poppins', sans-serif;
+    background-color: lavenderblush;
+    font-size: 18px;
+  }
+
+  .flip-card {
+    margin: 1%;
+    height: 300px;
+    width: 30%;
+    position: relative;
+    perspective: 100vw;
+    float: left;
+  }
+
+  .flip-card .front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 30%;
+    font-size: 30px;
+    background-size: cover;
+    transition: 1s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    background: pink;
+    font-family: 'Didact Gothic', sans-serif;
+    justify-content;
+  }
+
+  .flip-card .back {
+    background: #FFF99B;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    transition: 1s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+  }
+
+  .flip-card:hover .front {
+    visibility: hidden;
+    transform: rotateY(180deg) scale(0);
+  }
+
+  .flip-card .back {
+    background: #FFF99B;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transform: rotateY(180deg) scale(0);
+  }
+
+  .flip-card:hover .back {
+    transform: rotateY(360deg) scale(1);
+    visibility: visible;
+    background: #FFF99B;
+  }
+
+  .row {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF99B;
+  }
+
+  .backtext {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    background-color: #FFF99B;
+
+  }
+
+  .informationHeader {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+  }
